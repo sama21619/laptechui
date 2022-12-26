@@ -1,5 +1,4 @@
 # laptechui
-
 1. Tạo thư mục mới. 
 <br/>
 2. Sử dụng 'git clone' lệnh để sao chép dự án trong thư mục vừa tạo.
