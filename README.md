@@ -1,6 +1,5 @@
 # laptechui
 1. Tạo thư mục mới. 
-<br/>
 2. Sử dụng 'git clone' lệnh để sao chép dự án trong thư mục vừa tạo.
     git clone https://github.com/sama21619/laptechui.git
 <br/>
