@@ -1,0 +1,33 @@
+.wrap{
+	
+	height: 35px;
+	margin-top: 10px;
+	
+	margin-right: 10px;
+	border: solid 1px;
+	border-color: #e1e1e1;
+	border-radius: 4px;
+	cursor: pointer;
+	user-select: none;
+	padding: 8px 10px;
+	.text{
+		font-size: 1.4rem;
+		line-height: 17px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: fit-content;
+		user-select: none;
+		pointer-events: none;
+	}
+	img{
+		height: 100%;
+	}
+	
+}
+
+.wrap:hover{
+	border-color: #498fef;
+	color: #498fef;
+	
+}

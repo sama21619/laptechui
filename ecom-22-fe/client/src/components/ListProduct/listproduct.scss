@@ -1,0 +1,23 @@
+.listcontent {
+    max-width: 1200px;
+    padding-bottom: 24px;
+
+    .listproduct {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        row-gap: 16px;
+        column-gap: 3px;
+    }
+}
+
+.listcontent__btn {
+    display: block;
+    max-width: 350px;
+    background-color: #fff;
+    margin: 10px auto 0;
+    padding: 10px;
+    border-radius: 4px;
+    color: #222;
+    text-align: center;
+}

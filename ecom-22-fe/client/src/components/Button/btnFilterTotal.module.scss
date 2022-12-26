@@ -1,0 +1,46 @@
+.wrap{
+	
+	height: 35px;
+	margin-top: 10px;
+	
+	margin-right: 10px;
+	border: solid 1px;
+	border-color: #e1e1e1;
+	border-radius: 4px;
+	cursor: pointer;
+
+	padding: 8px 10px;
+	.text{
+		font-size: 1.4rem;
+		line-height: 17px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: fit-content;
+		user-select: none;
+		.number{
+			cursor: pointer;
+		
+			background-color: #f89406;
+			border-radius: 50%;
+			color: #fff;
+			font-size: 10px;
+			height: 16px;
+			line-height: 16px;
+			position: absolute;
+			top: 4px;
+			text-align: center;
+			right: 15px;
+			width: 16px;
+			animation-name: bounce;
+			animation-duration: 1s;
+			animation-fill-mode: both;
+			opacity: 1;
+			visibility: visible;
+			animation-delay: 450ms;
+			display: none;
+		}
+	}
+	
+	
+}

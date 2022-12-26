@@ -1,0 +1,254 @@
+.order {
+    
+    background: #fff;
+    box-shadow: 0 0 18px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px ;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+
+[class*=new-cartnew-], [class^=new-cartnew-] {
+    background-image: url(https://cdn.tgdd.vn/mwgcart/vue-pro/css/img/Sprite-New-Thank-You-Page.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 302px 152px;
+}
+
+.alertsuccess-new i, .alertsuccess-new strong {
+    display: inline-block;
+    vertical-align: middle;
+}
+.new-cartnew-success {
+    background-position: -12px -12px;
+    width: 50px;
+    height: 50px;
+}
+
+.alertsuccess-new {
+    padding: 10px 30px;
+}
+.alertsuccess-new {
+    display: block;
+    overflow: hidden;
+    background-color: #f0fff7;
+    text-align: center;
+    padding: 10px 0;
+}
+.ordercontent {
+    display: block;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.ordercontent p {
+    display: block;
+    overflow: hidden;
+    line-height: 22px;
+    color: #333;
+    padding: 10px;
+}
+.ordercontent .info-order {
+    display: block;
+    background-color: #f3f3f3;
+    padding: 10px 0;
+    margin: 0 10px 10px;
+    border-radius: 4px;
+}
+.info-order .info-order-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 14px 5px 11px;
+   
+}
+.ordercontent .info-order h4 {
+    display: block;
+    overflow: hidden;
+    color: #333;
+    text-transform: uppercase;
+}
+.info-order-header .cancel-order-new, .info-order-header .header-right {
+    display: flex;
+}
+.info-order-header .header-right>a {
+    color: #2f80ed;
+    text-decoration: none;
+}
+.cancel-order-new>span {
+    color: #333;
+    margin: 0 8px;
+}
+.cancel-order-new>a {
+    color: #dd1c1a;
+    text-decoration: none;
+}
+.ordercontent .info-order label {
+    display: block;
+    color: #333;
+    padding: 5px 15px;
+}
+.ordercontent .info-order label span {
+    display: block;
+    overflow: hidden;
+}
+
+.ordercontent .info-order label span>strong {
+    display: contents;
+}
+.ordercontent .info-order label b.red {
+    color: #CB1C22;
+}
+.order-infor-alert {
+    color: #CB1C22;
+    background: rgba(251,110,46,.05);
+    border: 1px dashed #CB1C22;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 10px 10px;
+}
+.ordercontent h3 {
+    display: block;
+    overflow: hidden;
+    font-weight: 600;
+    color: #333;
+    padding: 10px 10px 0;
+    font-size: 14px;
+    text-transform:none;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.formality-pay-new>li>a>.text-payment span>span {
+    margin-right: 5px;
+    margin-bottom: -10px;
+}
+
+
+
+
+.confirm-payment-button {
+    display: block;
+    overflow: hidden;
+    background: #CB1C22;
+    text-align: center;
+    width: 70%;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    height: 48px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.payment-method-new .refund-policy {
+    text-align: center;
+    margin: 17px auto 25px;
+    color: #288ad6;
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.refund-popup{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.refund-popup a {
+    color: #288ad6;
+    font-size: 14px;
+}
+
+
+.customer-rating__top {
+    display: inline-block;
+    width: 100%;
+}
+.customer-rating__top__desc {
+    width: calc(47% - 20px);
+    float: left;
+    padding: 10px;
+}
+ul li {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.buyanotherNew {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #288ad6;
+    background-color: #fff;
+    text-align: center;
+    color: #288ad6;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px auto;
+    margin-top: 20px;
+   
+}
+.customer-rating__top__rating-buttons {
+    width: 53%;
+    float: right;
+}
+.customer-rating__top__rating-buttons button {
+    display: inline-block;
+    width: 48%;
+    border: unset;
+    background: unset;
+    cursor: pointer;
+}
+.customer-rating__top__rating-buttons i {
+    display: block;
+    margin: 10px auto;
+    padding: 0!important;
+}
+
+
+.customer-rating__top__already-rating-buttons__good i, .customer-rating__top__rating-buttons__good i {
+    background-size: 346px 220px;
+    background-position: -52px -180px;
+    width: 40px;
+    height: 40px;
+}
+.customer-rating__top__already-rating-buttons__bad i, .customer-rating__top__rating-buttons__bad i {
+    background-size: 346px 220px;
+    background-position: 0 -180px;
+    width: 40px;
+    height: 40px;
+}
+.formality-pay-new li a {
+    color: #333;
+    cursor: pointer;
+}
+.order h4{
+    font-weight: 400;
+}
+.normal-payment input {
+    margin-right: 10px;
+}
+
+[class*=iconrating-], [class^=iconrating-] {
+    background: url(https://cdn.tgdd.vn/dmx2016/Content/images/V2/cart/iconcartmobile@2x.v201904141540.png) no-repeat;
+    background-size: 173px 110px;
+    vertical-align: middle;
+    display: inline-block;
+}
+

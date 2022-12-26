@@ -1,0 +1,11 @@
+.slideproduct {
+    width: 100%;
+    display: flex;
+    // grid-auto-rows: minmax(min-content, max-content);
+    // grid-template-columns: repeat(5, minmax(0, 1fr));
+    padding: 10px
+}
+
+.slidebar {
+    width: 100%;
+}

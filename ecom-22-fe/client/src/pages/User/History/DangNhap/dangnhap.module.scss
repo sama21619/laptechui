@@ -1,0 +1,66 @@
+section{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.login {
+    text-align: center;
+    font-family: ROBOTO LIGHT;
+    min-height: calc(100vh - 55px);
+    max-width: 100% !important;
+}
+.hide {
+    display: none;
+}
+.btnChangeNum {
+    font-size: 13px;
+    color: #288ad6;
+    font-weight: normal;
+}
+.login div {
+    margin: 3% auto;
+    max-width: 700px;
+    border: 1px solid #ccc;
+    padding: 25px 0;
+    background-color: #fff;
+
+    span {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+    *{
+        display: block;
+        margin-bottom: 25px;
+    }
+    form input {
+        border: 1px solid #e0e0e0;
+        margin-bottom: 40px;
+        border-radius: 2px;
+        width: 600px;
+        height: 48px;
+        padding: 0 50px;
+        background-repeat: no-repeat;
+        background-position: 25px center;
+       
+        font-size: 15px;
+        background-image: url(https://i.pinimg.com/736x/0e/d7/2c/0ed72c70b82a392936f404fd6a34960e.jpg);
+        background-size: 21px 21px;
+    }
+    form *{
+        display: block;
+        margin: auto;
+        font-family: ROBOTO LIGHT;
+    }
+    form .btn {
+        background-color: #CB1C22;
+        border-radius: 2px;
+        width: 302px;
+        height: 50px;
+        border: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 17px;
+        max-width: 100%;
+    }
+}

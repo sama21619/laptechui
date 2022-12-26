@@ -1,0 +1,24 @@
+.tabLink{
+    min-width: 70px;
+    cursor: pointer;
+    vertical-align: middle;
+    // background: #020c16;
+    border-radius: 20px;
+    padding: 5px 10px;
+    // color: #f1f1f1;
+    border: 1px solid #fff;
+    position: relative;
+    margin-right: 10px;
+    height: 36px;
+    text-align: center;
+    z-index: 999;
+
+}
+.tabLink.active{
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+
+
+

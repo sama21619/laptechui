@@ -1,0 +1,41 @@
+[class^="container__quicklink"],
+[class*="container__quicklink"]{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.quicklink {
+    background-color: #e0e0e0;
+    padding: 15px 0;
+    max-width: 1200px;
+    margin-top: 15px;
+    border-radius: 12px;
+
+    div {
+        display: grid;
+        grid-auto-rows: minmax(min-content, max-content);
+        grid-template-columns: repeat(8, minmax(0, 1fr));
+        max-width: 92%;
+        margin: auto;
+        gap: 20px;
+    }
+
+    a {
+        align-items: center;
+        border-radius: 34px;
+        background-color: #fff;
+        justify-content: center;
+        display: flex;
+        min-height: 34px;
+        max-height: 34px;
+        padding: 0 14px;
+        p{
+            display: block;
+            margin: auto;
+        }
+    }
+
+    img {
+        border: 0;
+    }
+}

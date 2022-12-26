@@ -1,0 +1,191 @@
+.menu-top {
+    background-color: #f1f1f1;
+    max-width: 100%;
+    padding: 15px 0;
+    margin: auto;
+
+    .body {
+        display: grid;
+        grid-auto-rows: minmax(min-content, max-content);
+        grid-template-columns: repeat(8, minmax(0, 1fr));
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+    }
+    .body-smartwatch{
+        :first-child{
+            grid-column-start: 2;
+        }
+        p{
+            color: #fff;
+        }
+    }
+    .nav-item {
+        color: #000;
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .nav-item:hover .box-icon {
+        background-color: #ffe500;
+    }
+
+    .box-icon {
+        align-items: center;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 6px;
+        background-color: #fff;
+
+        i {
+            border-radius: 50px;
+        }
+
+    }
+
+
+}
+
+.iconlt-dealsoc {
+    background-position: 0 0;
+    width: 34px;
+    height: 43px;
+}
+
+.iconlt-gaming {
+    background-position: -127px 0;
+}
+
+.iconlt-macbook {
+    background-position: -254px 0;
+}
+
+.iconlt-hoctap {
+    background-position: -381px 0;
+}
+
+.iconlt-dohoa {
+    background-position: -508px 0;
+}
+
+.iconlt-mongnhe {
+    background-position: -630px 0;
+}
+
+.iconlt-caocap {
+    background-position: -757px 0;
+}
+
+.iconlt-office {
+    background-position: -850px 0;
+}
+
+[class^="iconlt-"],
+[class*="iconlt-"] {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/laptop/iconlaptop@2xv3.png?v=2);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 34px;
+    height: 43px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 885px 43px;
+}
+
+[class^="iconsmw-"],
+[class*="iconsmw-"] {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/smartwatch/icon_donghothongminh@2x.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 200px 100px;
+}
+
+.iconsmw-dealsoc {
+    background-position: 3px 0;
+}
+.iconsmw-fashion {
+    background-position: -29px 0;
+}
+.iconsmw-utilities {
+    background-position: -60px 0;
+    height: 25px;
+    margin-top: 6px;
+    width: 28px;
+}
+.iconsmw-sports {
+    background-position: -94px 0;
+}
+.iconsmw-children {
+    background-position: -127px 0;
+    margin-top: 6px;
+}
+.iconsmw-accessory {
+    background-position: -156px 0;
+    margin-top: 6px;
+}
+
+[class^="icona-"],
+[class*="icona-"] {
+    width: 64px;
+    height: 64px;
+}
+
+.icona-dealsoc {
+    background: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/accessory/dealsoc.png);
+}
+
+.icona-apple {
+    background: url(https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/accessory/phu-kien-apple.png);
+}
+
+.icona-pin {
+    background: url(https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/accessory/pinsac.png);
+}
+
+.icona-cable {
+    background: url(https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/accessory/capsac.png);
+}
+
+.icona-headphone {
+    background: url(https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/accessory/tainghe.png);
+}
+
+.icona-loudspeaker {
+    background: url(https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/accessory/loa.png);
+}
+
+.icona-smarthome {
+    background: url(https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/accessory/thietbimang.png);
+}
+
+.icona-gaming {
+    background: url(https://cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/accessory/pk-gaming.png);
+}
+
+.menu-top-fixed {
+    background-color: #333;
+    max-width: 100%;
+    padding: 15px 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+    .nav-item {
+        color: #fff;
+    }
+
+}
+
+.active {
+    :nth-child(1) {
+        background-color: #ffe500;
+    }
+}

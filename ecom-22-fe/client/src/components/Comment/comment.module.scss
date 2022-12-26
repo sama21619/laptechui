@@ -1,0 +1,14 @@
+.wrap {
+	width: 800px;
+	font-size: 1.4rem;
+	padding: 8px;
+	.head {
+		width: 100%;
+		border-radius: 4px;
+		border: 1px solid #E5E7EB;
+		overflow: hidden;
+	}
+	.body {
+		border-top: 1px solid #dadada;
+	}
+}

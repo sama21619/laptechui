@@ -1,0 +1,163 @@
+.boxsort {
+    max-width: 1200px;
+    display: flex;
+    margin: 15px auto auto auto;
+    justify-content: space-between;
+
+    .boxsort__body {
+        display: flex;
+
+        .checkbox {
+            display: flex;
+
+            .checkboxItem {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                vertical-align: middle;
+                margin-left: 15px;
+                font-size: 12px;
+
+                .tickCheckbox {
+                    border: 1px solid #a6a6a6;
+                    border-radius: 3px;
+                    margin-right: 2px;
+                    height: 16px;
+                    width: 16px;
+                }
+
+                i {
+                    width: 10px;
+
+                    img {
+                        max-width: 10px;
+                        height: auto;
+                    }
+                }
+
+                .itemTitle {
+                    min-width: 100px;
+                }
+
+            }
+
+            .checkboxItem:first-child {
+                background-color: #e1f2e8;
+                text-transform: uppercase;
+                color: #30cf71;
+                border-radius: 6px;
+                font-weight: 600;
+                font-style: italic;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.click {
+    border: 1px solid #e0e0e0;
+    padding: 2px 10px;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+
+    span {
+        padding-right: 10px;
+        font-size: 1.3rem;
+    }
+
+    span::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 4px solid #333;
+    }
+
+    .select {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 4px;
+        width: 180px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        right: 0;
+        padding: 0 10px;
+        top: 30px;
+        animation: fadeInBox linear 0.3s;
+        z-index: 1;
+
+        p {
+            border-bottom: 1px solid #f1f1f1;
+            padding: 8px 3px;
+
+            a {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        .check i {
+            box-sizing: border-box;
+            position: relative;
+            display: inline-block;
+            width: 22px;
+            height: 16px;
+            border: 2px solid transparent;
+            border-radius: 100px;
+            vertical-align: middle;
+        }
+
+        .check i::after {
+            content: "";
+            position: absolute;
+            top: -3px;
+            left: 0;
+            width: 6px;
+            height: 10px;
+            border-width: 0 2px 2px 0;
+            border-style: solid;
+            border-color: #333;
+            transform-origin: bottom left;
+            transform: rotate(45deg);
+        }
+
+    }
+}
+
+@keyframes fadeInBox {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.active {
+    background-color: #4a90e2;
+    position: relative;
+}
+
+.active::before,
+.active::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    bottom: 1px;
+    width: 2px;
+}
+
+.active::before {
+    height: 8px;
+    left: 3px;
+    transform: rotate(-35deg);
+}
+
+.active::after {
+    height: 12px;
+    left: 8px;
+    transform: rotate(35deg);
+}

@@ -1,0 +1,15 @@
+.phone__content{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    .listcontent{
+        width: 100%;
+    }
+}
+#tippy-5{
+    inset: 1px 2px auto 10px!important;
+    margin: -9px!important;
+}
+.tippy-arrow::before{
+    display: none;
+}

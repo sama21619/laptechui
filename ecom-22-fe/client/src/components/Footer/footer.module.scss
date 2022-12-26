@@ -1,0 +1,47 @@
+.footer {
+	@mixin d-flex {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	height: 322px;
+	color: #333333;
+	background-color: #fff;
+	border-top: 1px solid #e2e2e2;
+	.top {
+		@include d-flex;
+		font-size: 1.4rem;
+		height: 256px;
+		.wrap {
+			display: flex;
+			align-items: flex-start;
+			justify-content: space-between;
+			width: 1200px;
+			ul {
+				li {
+					margin: 8px;
+				}
+			}
+			.logo {
+				width: 234px;
+				img {
+					width: 80px;
+					height: 24px;
+				}
+				svg {
+					display: inline;
+				}
+			}
+		}
+	}
+	.bottom {
+		@include d-flex;
+		background-color: #f1f1f1;
+		height: 66px;
+		p {
+			margin: auto;
+			width: 1200px;
+			font-size: 1.2rem;
+		}
+	}
+}
